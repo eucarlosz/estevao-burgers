@@ -1,243 +1,167 @@
-# 🍔 Estêvão Burger's
+# 🍔 Estevão Burger's
 
-> Um projeto de desenvolvimento front-end que une tecnologia, identidade e propósito.
+Website desenvolvido para uma hamburgueria artesanal, combinando **identidade visual, experiência do usuário e desenvolvimento Front-end**.
 
-A **Estêvão Burger's** é uma landing page responsiva desenvolvida com **HTML5, CSS3 e JavaScript**, criada como parte do **Grupo Estêvão**.
+O projeto foi construído com **HTML, CSS e JavaScript**, trazendo uma interface moderna inspirada nas raízes nordestinas da marca e apresentando cardápio, história, diferenciais e informações do estabelecimento.
 
-Mais do que um exercício de programação, este projeto representa uma decisão pessoal: usar aquilo que estou aprendendo em tecnologia para construir projetos com contexto, identidade e significado.
+## 🖥️ Preview
 
----
+> Adicione aqui a imagem principal do projeto após colocar os screenshots na pasta `assets/screenshots`.
 
-## 🌵 Por que criei este projeto?
-
-Durante meus estudos em desenvolvimento, percebi que muitos projetos de portfólio acabam seguindo exatamente o mesmo caminho: calculadoras, páginas genéricas, clones e interfaces construídas apenas para demonstrar determinada tecnologia.
-
-Esses projetos são importantes para aprender, mas eu queria ir além.
-
-Queria construir algo que, além de demonstrar minhas habilidades técnicas, tivesse uma história por trás.
-
-Foi daí que surgiu a ideia de desenvolver projetos relacionados ao **Grupo Estêvão**, uma iniciativa pessoal inspirada na minha família e no objetivo de, através do meu desenvolvimento profissional, construir algo que no futuro também possa contribuir com meus pais e com as pessoas que fizeram parte da minha trajetória.
-
-A Estêvão Burger's nasceu dentro dessa ideia.
-
-Em vez de desenvolver apenas "mais uma landing page de hamburgueria", busquei criar uma marca fictícia com identidade própria, conceito visual, produtos, narrativa e referências à cultura nordestina.
-
-O projeto também carrega uma homenagem familiar através do nome **Estêvão**, reforçando a ideia de transformar tecnologia em algo conectado às minhas próprias raízes.
+```html
+<p align="center">
+  <img src="assets/screenshots/home.png" alt="Página inicial do Estevão Burger's" width="900">
+</p>
+```
 
 ---
 
-## 💡 A ideia por trás do projeto
+## ✨ Sobre o projeto
 
-O objetivo não era simplesmente escrever HTML e CSS.
+O **Estevão Burger's** foi desenvolvido com o objetivo de criar uma experiência digital que fosse além de um simples cardápio.
 
-O desafio foi pensar como um projeto real:
+A proposta foi construir uma identidade própria para a hamburgueria, utilizando elementos visuais, tipografia, cores e conteúdo inspirados na cultura nordestina.
 
-- Qual seria a identidade da marca?
-- Como transmitir confiança através do design?
-- Como organizar corretamente uma página comercial?
-- Como criar uma experiência consistente no desktop e no celular?
-- Como utilizar JavaScript para adicionar comportamento à interface?
-- Como transformar uma ideia simples em algo apresentável em um portfólio profissional?
-
-A proposta visual combina uma estética moderna de hamburgueria artesanal com elementos inspirados na **cultura nordestina**, utilizando tons escuros, vinho, dourado e referências que ajudam a construir personalidade para a marca.
+O site apresenta os produtos de maneira visual e organiza as principais informações da marca em uma página única e responsiva.
 
 ---
 
-## 🎯 Objetivo
+## 🚀 Funcionalidades
 
-Este projeto foi desenvolvido para consolidar conhecimentos de desenvolvimento front-end através de uma aplicação visualmente completa.
-
-Durante sua construção, trabalhei conceitos como:
-
-- HTML semântico;
-- organização estrutural de páginas;
-- CSS responsivo;
-- Flexbox e Grid;
-- pseudo-classes e pseudo-elementos;
-- especificidade e seletores CSS;
-- responsividade com Media Queries;
-- manipulação do DOM;
-- eventos em JavaScript;
-- manipulação de classes;
-- atributos HTML via JavaScript;
-- acessibilidade básica;
-- organização de arquivos;
-- versionamento com Git;
-- publicação de código no GitHub.
+* Navegação entre as seções da página
+* Apresentação dos principais hambúrgueres
+* Cards de produtos com preços e descrições
+* Botões para realização de pedidos
+* Seção contando a história da marca
+* Apresentação dos diferenciais da hamburgueria
+* Área de avaliações
+* Seção de contato
+* Links para redes sociais
+* Botão para retornar ao topo
+* Layout adaptado para diferentes tamanhos de tela
 
 ---
 
 ## 🛠️ Tecnologias
 
-### HTML5
-
-Utilizado para construir a estrutura semântica da página, trabalhando com elementos como:
-
-`header`, `nav`, `main`, `section`, `article`, `footer` e outros elementos apropriados para cada contexto.
-
-### CSS3
-
-Responsável por toda a identidade visual e responsividade do projeto.
-
-Foram utilizados conceitos como:
-
-- Flexbox;
-- CSS Grid;
-- variáveis CSS;
-- gradientes;
-- transições;
-- transformações;
-- efeitos de hover;
-- pseudo-elementos;
-- Media Queries;
-- layout responsivo.
-
-### JavaScript
-
-O JavaScript adiciona comportamento à interface, principalmente no sistema de navegação mobile.
-
-Foram trabalhados conceitos como:
-
-```javascript
-document.querySelector()
-document.querySelectorAll()
-addEventListener()
-classList.toggle()
-classList.remove()
-setAttribute()
-forEach()
-```
-
-Além de condicionais e valores booleanos.
+<p>
+  <img alt="HTML5" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+  <img alt="CSS3" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+  <img alt="JavaScript" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+  <img alt="Git" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
+  <img alt="GitHub" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
+</p>
 
 ---
 
-## 📱 Menu mobile
+## 📸 Interface
 
-Uma das funcionalidades implementadas com JavaScript foi o menu responsivo.
+### Página inicial
 
-Quando o usuário interage com o botão de navegação, o JavaScript controla o estado do menu através da manipulação de classes.
+<p align="center">
+  <img src="assets/screenshots/home.png" alt="Página inicial" width="900">
+</p>
 
-```javascript
-botaoMenu.addEventListener("click", function () {
-    const menuAberto = menu.classList.toggle("ativo");
+### Cardápio
 
-    botaoMenu.setAttribute("aria-expanded", menuAberto);
-});
-```
+<p align="center">
+  <img src="assets/screenshots/cardapio.png" alt="Cardápio do Estevão Burger's" width="900">
+</p>
 
-O projeto também atualiza atributos ARIA e fecha automaticamente o menu quando uma opção de navegação é selecionada.
+### Nossa história
 
-Essa implementação permitiu conectar na prática três tecnologias:
+<p align="center">
+  <img src="assets/screenshots/historia.png" alt="Seção Nossa História" width="900">
+</p>
 
-**HTML → estrutura**  
-**CSS → apresentação**  
-**JavaScript → comportamento**
+### Avaliações e contato
+
+<p align="center">
+  <img src="assets/screenshots/avaliacoes.png" alt="Avaliações dos clientes" width="900">
+</p>
 
 ---
 
-## 🧩 Estrutura do projeto
+## 📚 Conceitos praticados
+
+Durante o desenvolvimento deste projeto foram aplicados conceitos como:
+
+* HTML semântico
+* Estruturação de páginas web
+* CSS e estilização de interfaces
+* Flexbox
+* Responsividade
+* Manipulação do DOM com JavaScript
+* Eventos em JavaScript
+* Navegação entre seções
+* Organização de componentes visuais
+* Experiência do usuário
+* Git e GitHub
+
+---
+
+## 📁 Estrutura do projeto
 
 ```text
 estevao-burgers/
 │
 ├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   └── screenshots/
+│       ├── home.png
+│       ├── cardapio.png
+│       ├── historia.png
+│       └── avaliacoes.png
 │
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-└── img/
-    ├── cabra-da-peste.png
-    ├── logo-estevao-burgers.png
-    ├── patrao.jpg
-    ├── seu-estevao.jpeg
-    └── x-bacon.jpg
+└── README.md
 ```
 
-A separação foi feita para manter responsabilidades claras entre estrutura, estilização, comportamento e recursos visuais.
+> A estrutura pode variar de acordo com a organização atual dos arquivos do projeto.
 
 ---
 
-## ✨ Principais características
+## ▶️ Como executar
 
-- Design moderno e autoral
-- Identidade visual inspirada na cultura nordestina
-- Layout totalmente responsivo
-- Menu mobile interativo
-- Navegação entre seções
-- Cards de produtos
-- Seção institucional
-- História da marca
-- Avaliações
-- Call to Action
-- Área de contato
-- Ícones SVG
-- Microinterações e efeitos de hover
-- Acessibilidade básica com atributos ARIA
+1. Clone este repositório:
 
----
-
-## 🧠 O que aprendi
-
-Um dos principais aprendizados deste projeto foi perceber que desenvolvimento front-end não consiste apenas em fazer uma página "ficar bonita".
-
-Estrutura, semântica, responsividade, organização e comportamento precisam trabalhar juntos.
-
-Também foi um projeto importante para avançar no JavaScript aplicado ao DOM.
-
-Conceitos que antes eram estudados separadamente começaram a fazer sentido quando utilizados para resolver problemas reais da interface.
-
-Por exemplo:
-
-```text
-Selecionar um elemento
-        ↓
-Escutar uma interação
-        ↓
-Alterar seu estado
-        ↓
-CSS responder ao novo estado
-        ↓
-Interface mudar para o usuário
+```bash
+git clone https://github.com/eucarlosz/estevao-burgers.git
 ```
 
----
+2. Entre na pasta:
 
-## 🚀 Mais do que um projeto de estudo
+```bash
+cd estevao-burgers
+```
 
-A Estêvão Burger's representa a forma como quero construir meu portfólio.
+3. Abra o arquivo `index.html` no navegador.
 
-Não quero apenas acumular projetos tecnicamente semelhantes aos de milhares de outros estudantes.
-
-Quero que cada projeto represente uma evolução técnica e, sempre que possível, tenha **contexto, identidade e uma razão para existir**.
-
-O **Grupo Estêvão** faz parte dessa visão.
-
-É uma maneira de conectar meus estudos em tecnologia a uma motivação maior: evoluir profissionalmente, criar oportunidades e construir algo que possa gerar valor para minha família no futuro.
-
-Por isso, este repositório não representa apenas uma landing page.
-
-Representa uma etapa dessa construção.
+Também é possível utilizar a extensão **Live Server** no VS Code durante o desenvolvimento.
 
 ---
 
-## 📌 Status
+## 🌐 Demonstração
 
-**Versão 1.0 concluída.**
+O deploy do projeto será disponibilizado aqui.
 
-O objetivo desta versão foi desenvolver e consolidar a interface utilizando HTML, CSS e JavaScript básico.
+**🔗 Live Demo:** Em breve
 
-Funcionalidades mais avançadas podem ser exploradas futuramente em novas versões, sem comprometer o objetivo original do projeto.
+---
+
+## 🎯 Objetivo
+
+Este projeto faz parte do meu desenvolvimento prático em **Front-end**, permitindo aplicar HTML, CSS e JavaScript na construção de uma interface completa para um negócio.
+
+Além da parte técnica, o projeto também explora **identidade visual, hierarquia de informações e experiência do usuário**.
 
 ---
 
 ## 👨‍💻 Autor
 
-**Carlos Eduardo da Costa Freire**
+**Carlos Eduardo**
 
-Estudante de Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento de software e evolução prática em programação.
+Estudante de **Análise e Desenvolvimento de Sistemas — UniFECAF**
 
-GitHub: [@eucarlosz](https://github.com/eucarlosz)
+[LinkedIn](https://www.linkedin.com/in/carloseduardocostaf/) • [GitHub](https://github.com/eucarlosz)
