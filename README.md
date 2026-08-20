@@ -1,44 +1,40 @@
 # 🍔 Estevão Burger's
 
-Website desenvolvido para uma hamburgueria artesanal, combinando **identidade visual, experiência do usuário e desenvolvimento Front-end**.
+Website fictício de uma hamburgueria artesanal, desenvolvido como projeto de estudo e portfólio utilizando **HTML, CSS e JavaScript**.
 
-O projeto foi construído com **HTML, CSS e JavaScript**, trazendo uma interface moderna inspirada nas raízes nordestinas da marca e apresentando cardápio, história, diferenciais e informações do estabelecimento.
+A proposta foi criar uma experiência visual completa para uma marca fictícia, combinando desenvolvimento Front-end, identidade visual e referências à cultura nordestina.
 
-## 🖥️ Preview
-
-> Adicione aqui a imagem principal do projeto após colocar os screenshots na pasta `assets/screenshots`.
-
-```html
 <p align="center">
   <img src="assets/screenshots/home.png" alt="Página inicial do Estevão Burger's" width="900">
 </p>
-```
 
 ---
 
-## ✨ Sobre o projeto
+## 💻 Sobre o projeto
 
-O **Estevão Burger's** foi desenvolvido com o objetivo de criar uma experiência digital que fosse além de um simples cardápio.
+O **Estevão Burger's** nasceu como um projeto fictício para colocar em prática conhecimentos de desenvolvimento web.
 
-A proposta foi construir uma identidade própria para a hamburgueria, utilizando elementos visuais, tipografia, cores e conteúdo inspirados na cultura nordestina.
+Além da implementação técnica, o projeto trabalha a construção de uma identidade própria para a hamburgueria, utilizando cores, tipografia, imagens e elementos visuais inspirados nas raízes nordestinas da marca.
 
-O site apresenta os produtos de maneira visual e organiza as principais informações da marca em uma página única e responsiva.
+O site foi estruturado para apresentar de forma clara o cardápio, a história da hamburgueria, seus diferenciais, avaliações fictícias e informações de contato.
+
+> **Observação:** Estevão Burger's é uma marca fictícia criada exclusivamente para fins educacionais e de portfólio. Produtos, preços, avaliações e informações de contato apresentados na interface são demonstrativos.
 
 ---
 
-## 🚀 Funcionalidades
+## ✨ Funcionalidades
 
 * Navegação entre as seções da página
-* Apresentação dos principais hambúrgueres
-* Cards de produtos com preços e descrições
-* Botões para realização de pedidos
-* Seção contando a história da marca
-* Apresentação dos diferenciais da hamburgueria
-* Área de avaliações
+* Apresentação visual dos produtos
+* Cards de hambúrgueres com descrição e preço
+* Seção dedicada à história da marca
+* Apresentação dos diferenciais
+* Área demonstrativa de avaliações
 * Seção de contato
 * Links para redes sociais
-* Botão para retornar ao topo
-* Layout adaptado para diferentes tamanhos de tela
+* Botão de retorno ao topo
+* Interações desenvolvidas com JavaScript
+* Interface adaptada para diferentes tamanhos de tela
 
 ---
 
@@ -46,57 +42,96 @@ O site apresenta os produtos de maneira visual e organiza as principais informa�
 
 <p>
   <img alt="HTML5" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>
+  &nbsp;
   <img alt="CSS3" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>
+  &nbsp;
   <img alt="JavaScript" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>
+  &nbsp;
   <img alt="Git" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>
+  &nbsp;
   <img alt="GitHub" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
 </p>
+
+**Principais tecnologias:**
+
+* HTML5
+* CSS3
+* JavaScript
+* Git
+* GitHub
 
 ---
 
 ## 📸 Interface
 
-### Página inicial
+### 🏠 Página inicial
+
+Apresentação principal da hamburgueria, identidade da marca e chamada para conhecer o cardápio.
 
 <p align="center">
-  <img src="assets/screenshots/home.png" alt="Página inicial" width="900">
+  <img src="assets/screenshots/home.png" alt="Página inicial do Estevão Burger's" width="900">
 </p>
 
-### Cardápio
+### 🍔 Cardápio
+
+Seção dedicada aos produtos, utilizando cards para organizar imagens, nomes, descrições e preços.
 
 <p align="center">
   <img src="assets/screenshots/cardapio.png" alt="Cardápio do Estevão Burger's" width="900">
 </p>
 
-### Nossa história
+### ⭐ Diferenciais
+
+Apresentação dos principais conceitos utilizados para construir a identidade fictícia da hamburgueria.
 
 <p align="center">
-  <img src="assets/screenshots/historia.png" alt="Seção Nossa História" width="900">
+  <img src="assets/screenshots/diferenciais.png" alt="Diferenciais do Estevão Burger's" width="900">
 </p>
 
-### Avaliações e contato
+### 🌵 Nossa história
+
+Seção criada para apresentar o conceito e as referências utilizadas na construção da marca.
 
 <p align="center">
-  <img src="assets/screenshots/avaliacoes.png" alt="Avaliações dos clientes" width="900">
+  <img src="assets/screenshots/historia.png" alt="História do Estevão Burger's" width="900">
+</p>
+
+### 💬 Avaliações
+
+Área demonstrativa criada para representar avaliações de clientes dentro da proposta visual do projeto.
+
+<p align="center">
+  <img src="assets/screenshots/avaliacoes.png" alt="Avaliações do Estevão Burger's" width="900">
+</p>
+
+### 📍 Contato
+
+Parte final da interface com informações demonstrativas de contato e navegação.
+
+<p align="center">
+  <img src="assets/screenshots/contato.png" alt="Contato do Estevão Burger's" width="900">
 </p>
 
 ---
 
 ## 📚 Conceitos praticados
 
-Durante o desenvolvimento deste projeto foram aplicados conceitos como:
+O desenvolvimento deste projeto permitiu praticar:
 
+* Estruturação de páginas com HTML
 * HTML semântico
-* Estruturação de páginas web
-* CSS e estilização de interfaces
+* Estilização com CSS
 * Flexbox
+* Organização de layouts
 * Responsividade
-* Manipulação do DOM com JavaScript
-* Eventos em JavaScript
+* Hierarquia visual
+* Manipulação do DOM
+* Eventos com JavaScript
 * Navegação entre seções
-* Organização de componentes visuais
-* Experiência do usuário
+* Organização de arquivos
 * Git e GitHub
+* Desenvolvimento de interfaces
+* Experiência do usuário
 
 ---
 
@@ -105,56 +140,72 @@ Durante o desenvolvimento deste projeto foram aplicados conceitos como:
 ```text
 estevao-burgers/
 │
-├── index.html
-├── style.css
-├── script.js
 ├── assets/
 │   └── screenshots/
 │       ├── home.png
 │       ├── cardapio.png
+│       ├── diferenciais.png
 │       ├── historia.png
-│       └── avaliacoes.png
+│       ├── avaliacoes.png
+│       └── contato.png
 │
+├── index.html
+├── style.css
+├── script.js
 └── README.md
 ```
-
-> A estrutura pode variar de acordo com a organização atual dos arquivos do projeto.
 
 ---
 
 ## ▶️ Como executar
 
-1. Clone este repositório:
+Como o projeto utiliza tecnologias Front-end básicas, não é necessária nenhuma instalação adicional.
+
+### 1. Clone o repositório
 
 ```bash
 git clone https://github.com/eucarlosz/estevao-burgers.git
 ```
 
-2. Entre na pasta:
+### 2. Acesse a pasta
 
 ```bash
 cd estevao-burgers
 ```
 
-3. Abra o arquivo `index.html` no navegador.
+### 3. Execute
 
-Também é possível utilizar a extensão **Live Server** no VS Code durante o desenvolvimento.
+Abra o arquivo:
+
+```text
+index.html
+```
+
+diretamente no navegador.
+
+Durante o desenvolvimento, também é possível utilizar a extensão **Live Server** no Visual Studio Code.
 
 ---
 
-## 🌐 Demonstração
+## 🎯 Objetivo do projeto
 
-O deploy do projeto será disponibilizado aqui.
+O principal objetivo foi transformar conhecimentos de **HTML, CSS e JavaScript** em uma interface completa, indo além de exercícios isolados.
 
-**🔗 Live Demo:** Em breve
+O projeto também permitiu trabalhar aspectos relacionados à apresentação de um produto digital, como identidade visual, organização de conteúdo, experiência de navegação e consistência entre diferentes seções.
 
 ---
 
-## 🎯 Objetivo
+## 🖥️ Demonstração
 
-Este projeto faz parte do meu desenvolvimento prático em **Front-end**, permitindo aplicar HTML, CSS e JavaScript na construção de uma interface completa para um negócio.
+O projeto não possui deploy público.
 
-Além da parte técnica, o projeto também explora **identidade visual, hierarquia de informações e experiência do usuário**.
+As telas da aplicação podem ser visualizadas neste README e na pasta:
+
+```text
+assets/screenshots/
+```
+
+O **Estevão Burger's é um projeto fictício**, desenvolvido exclusivamente para estudo e composição de portfólio.
 
 ---
 
@@ -164,4 +215,12 @@ Além da parte técnica, o projeto também explora **identidade visual, hierarqu
 
 Estudante de **Análise e Desenvolvimento de Sistemas — UniFECAF**
 
-[LinkedIn](https://www.linkedin.com/in/carloseduardocostaf/) • [GitHub](https://github.com/eucarlosz)
+<p>
+  <a href="https://www.linkedin.com/in/carloseduardocostaf/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+
+  <a href="https://github.com/eucarlosz">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
